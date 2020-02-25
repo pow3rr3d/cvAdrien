@@ -3,7 +3,7 @@
 		
 ?>
 <?php echo apply_filters('cactus_page_title_bar','','');?>  
-<div class="page-wrap">
+<div id="404container" class="page-wrap">
 <?php do_action('cactus_before_page_wrap');?>  
   <div class="container">
     <div class="page-inner row no-aside">
